@@ -10,9 +10,7 @@ This g2p convert kazakh language scripts to phonemes.
 
 ### Usage
 
-Dillinger requires [Python](https://python.org/) v3+ to run.
-
-Install the dependencies and devDependencies and start the server.
+requires [Python](https://python.org/) v3+ to run.
 
 ```sh
 from kzphoneme import Phoneme
