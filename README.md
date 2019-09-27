@@ -29,7 +29,6 @@ cyril_res = pho(cyril_text, 'cyril') #output:   ['B', 'IH', 'L', 'IH', 'M', ' ',
 ### Todos
 
  - Write MORE Tests
- - Add python package setup
 
 License
 ----
