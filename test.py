@@ -16,6 +16,11 @@ class PhonemeTestCase(unittest.TestCase):
         cyril_res = self.pho(cyril_text, 'cyril')
         self.assertEqual(cyril_res, ['B', 'IH', 'L', 'IH', 'M', ' ', 'B', 'U', 'L', 'A', 'C', 'I'])
 
+    def test_spead(self):
+        for i in range(10000):
+            arab_res = self.pho(arab_text, 'arab')
+            cyril_res = self.pho(cyril_text, 'cyril')
+
 
 if __name__ == '__main__':
     unittest.main()
