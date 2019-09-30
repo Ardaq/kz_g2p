@@ -8,7 +8,7 @@ class Convert(object):
     def __init__(self, *args, **kwargs):
         super(Convert, self).__init__(*args, **kwargs)
         data = {}
-        with open(os.path.join(dirname, 'rightreading.kz'), 'r', encoding='utf8') as file:
+        with open(os.path.join(dirname, 'data/rightreading.kz'), 'r', encoding='utf8') as file:
             for line in file:
                 line = line.strip()
                 if line.startswith('#') or len(line) < 1:
