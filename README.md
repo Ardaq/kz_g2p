@@ -8,11 +8,17 @@ This g2p convert kazakh language scripts to phonemes.
 - kazakh(cyrillic) script to phoneme
 - Numbers to word
 
+## Installations
+
+```shell script
+pip install g2p-kz
+```
+
 ## Usage
 
 requires [Python](https://python.org/) v3+ to run.
 
-```sh
+```python
 from kzphoneme import Phoneme
 arab_text = 'ءبىلىم بۇلاعى'
 cyril_text = 'білім бұлағы'

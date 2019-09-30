@@ -2,4 +2,4 @@
 venv
 build
 dist
-.pypirc
+g2p_kz.egg-info
