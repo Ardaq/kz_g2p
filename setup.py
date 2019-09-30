@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf8') as fh:
 
 setuptools.setup(
     name="g2p-kz",
-    version="0.0.1",
+    version="0.0.2",
     author="Ardaq",
     author_email="ardager@163.com",
     description="Kazakh language grapheme to phoneme converter",
@@ -15,8 +15,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "License :: OSI Approved :: MIT License"
     ],
     python_requires='>=3.6',
+    install_requires=[
+        "nltk >= 3.4.5",
+    ],
 )
