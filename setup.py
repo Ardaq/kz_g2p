@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf8') as fh:
     long_des = fh.read()
 
 setuptools.setup(
-    name="g2g-kz",
+    name="g2p-kz",
     version="0.0.1",
     author="Ardaq",
     author_email="ardager@163.com",
