@@ -29,7 +29,7 @@ cyril_res = pho(cyril_text, 'cyril') #output:   ['B', 'IH', 'L', 'IH', 'M', ' ',
 **Cyrillic**| |**Arabic**| | | | | |**Phoneme**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
  |  | |Name|Normal|Isolated|Final|Initial|Medial|
--| |  Arabic Letter High Hamza|ٴ|| | | | |-
+-| |  Arabic Letter High Hamza| ٴ | | | | | |-
  | | | |0x0674| | | | |
 -| |Arabic Letter Hamza|ء|ﺀ| | | |-
  | | | |0x0621|0xFE80| | |
